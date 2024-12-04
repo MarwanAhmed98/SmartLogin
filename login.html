@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- My style -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="mx-auto w-50 text-center my-5 MainContent py-4">
+        <h1 class="mb-3">Smart Login System</h1>
+        <input class="form-control mb-3  d-block m-auto " type="email" name="" id="EmailLogin" placeholder="Enter Your Email">
+        <input class="form-control mb-4  d-block m-auto" type="password" name="" id="PasswordLogin" placeholder="Enter Your Password">
+        <p id="AllInputs" class="text-danger d-none">Incorrect Email or Password</p>
+        <button class="LoginBtn mb-3" onclick="Login()">Login</button>
+        <p class="text-white">Don’t have an account? <a href="./signup.html">Sign Up</a></p>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
